@@ -1,6 +1,12 @@
 //https://github.com/jwvg0425/ProjectArthas/wiki/함수-포인터-개념부터-std::function까지
-//g++ -o bind bind.cpp      -std=c++11
 //http://stackoverflow.com/questions/15048117/c-function-in-namespace-std-does-not-name-a-type
+
+/* 
+build error :  error: ‘function’ does not name a type /=> -std=c++11
+compile: g++ -o bind bind.cpp      -std=c++11
+result : $ ./bind
+Text: Bound Function
+*/
 
 #include <string>
 #include <iostream>
